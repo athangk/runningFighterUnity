@@ -3,33 +3,33 @@ using UnityEngine;
 
 public class AnimatorHelper : MonoBehaviour
 {
-    private Animator ninjaAnimator;
+    private Animator fighterAnimator;
 
     void Start()
     {
-        ninjaAnimator = GetComponent<Animator>();
+        fighterAnimator = GetComponent<Animator>();
     }
 
     void stopHitKick()
     {
 
-        ninjaAnimator.SetBool("isHitKick", false);
+        fighterAnimator.SetBool("isHitKick", false);
     }
 
     void stopHitSword()
     {
 
-        ninjaAnimator.SetBool("isHitSword", false);
+        fighterAnimator.SetBool("isHitSword", false);
     }
     void stopHitFlyingSword()
     {
 
-        ninjaAnimator.SetBool("isFlyingSword", false);
+        fighterAnimator.SetBool("isFlyingSword", false);
     }
 
     void stopHitFlyingKick()
     {
 
-        ninjaAnimator.SetBool("isFlyingKick", false);
+        fighterAnimator.SetBool("isFlyingKick", false);
     }
 }
