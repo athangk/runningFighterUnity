@@ -7,22 +7,22 @@
 
             if (isJumping)
             {
-                ninjaAnimator.SetBool("isFlyingSword", true);
+                fighterAnimator.SetBool("isFlyingSword", true);
             }
             else
             {
-                ninjaAnimator.SetBool("isHitSword", true);
+                fighterAnimator.SetBool("isHitSword", true);
             }
         }
         if (Input.GetKey(KeyCode.S))
         {
             if (isJumping)
             {
-                ninjaAnimator.SetBool("isFlyingKick", true);
+                fighterAnimator.SetBool("isFlyingKick", true);
             }
             else
             {
-                ninjaAnimator.SetBool("isHitKick", true);
+                fighterAnimator.SetBool("isHitKick", true);
             }
 
         }
