@@ -1,5 +1,5 @@
 # RunningFighterUnity
-First version of a running fighter game in unity, code shown small snip of animators and controller
+First version show case of a running fighter game in unity, code shown small snip of animators and controller
 
 #### - Moves
 
