@@ -1,6 +1,12 @@
 # RunningFighterUnity
 First version show case of a running fighter game in unity, code shown small snip of animators and controller
 
+#### - Full display
+  <p float=left>
+<img src="https://github.com/athangk/runningFighterUnity/blob/main/full_display_12s.giff" width="640">
+  </p>
+
+
 #### - Moves
 
 #### - Flying Sword
